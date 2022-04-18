@@ -1,0 +1,23 @@
+body {
+  background-color: lightsteelblue;
+  text-align: center;
+
+}
+h1{
+font-size: 35pt;
+font-family: 'Abril Fatface', cursive;
+}
+h2{
+  font-size: 20pt;
+  font-family: 'Abril Fatface', cursive;
+}
+h3{
+  font-size: 12pt;
+  font-family: 'Abril Fatface', cursive;
+}
+p {
+  font-size: 12pt;
+  color:darkslategray;
+  font-family: 'Indie Flower', cursive;
+
+}
