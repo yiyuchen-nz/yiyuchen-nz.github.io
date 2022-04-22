@@ -1,9 +1,50 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>My blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yiyu's Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Lobster&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+  </head>
   <body>
-    <h1>Kia ora Taiao! (Hello World!)</h1> 
-    <p> This is the beginning of my website home page.</p>
-    <p> It will eventually contain a list of links to all my blogs. </p>
+    <header>
+    <nav>
+      <ul class="topnav">
+        <li class="topnav-list"><a class="topnav-text" href="index.html">HOME</a></li>
+        <li class="topnav-list"><a class="topnav-text" href="#myblogs">BLOGS</a></li>
+        <li class="topnav-list"><a class="topnav-text" href="#contacts">CONTACT</a></li>
+      </ul>
+    </nav>
+    </header>
+      <!-- aboutme -->
+    <section class="about" id="aboutme">
+        <h1>Hi, this is YIYU! Welcome to my page!</h1>
+        <h3>I am a student of Dev Academy, in the cohort Matai 2022.</h3> 
+        <h3>I am based in Auckland, New Zealand. My goal is to become a web developer.</h3> 
+        <h3>Come and join this journey with me:)</h3>
+    </section>
+    <section class="main"> 
+      <div class="maincontent">
+        <img class="index1" src="images/index1.jpeg" alt="The Redwoods in Rotorua">
+      </div>
+      <!-- myblogs -->
+      <div class="maincontent" id="myblogs">
+        <h2><em>My blogs</em></h2>
+         <ul class="blogs">
+          <li class="bloglist"><a class="bloglist-text" href="blog/te-houtaewa-template.html">The story of Te Houtaewa</a></li>
+          <li class="bloglist"><a class="bloglist-text" href="blog/html-css.html">CSS Class and ID Selectors: which one to use?</a></li>
+          <li class="bloglist"><a class="bloglist-text" href="blog/my-identity-values-and-strengths.html">My identity, values and strengths</a></li>
+          <li class="bloglist"><a class="bloglist-text" href="blog/my-learning-plan.html">My learning plan</a></li>
+        </ul>
+      </div>
+    </section>
+   
+    <!-- footer -->
+  <footer>
+   <a href="https://github.com/yiyuchen-nz" target="blank" id="contacts"><img src="images/GitHub-Mark.png" alt="My Github"></a>
+  </footer>
   </body>
 </html>
