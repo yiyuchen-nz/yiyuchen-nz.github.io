@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CSS Selectors</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Lobster&family=Whisper&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
   </head>
   <body>
@@ -18,27 +19,27 @@
       </nav>
       </header>
       <section class="post">
-        <div class="postarticle">
+      <div class="postarticle">
         <h2>HTML/CSS Class and ID Selectors: which one to use?</h2>
         <h4>22 April 2022</h4>
         <p>In this blog, we are going to look into some technical concepts in CSS: class selector and ID selector. We will discuss what are they and he best practices to use them.</p>
         <h5>First of all, what are CSS selectors?</h5>
-        <p>HTML and CSS are like work partners. They all make their own contributions to the webpage we are browsing. We can talk about this for a whole day, but in short, HTML is all about the content on the webpage (HTML elements), while CSS is defining how HTML elements will be styled on the webpage(positions, colors, font style, etc). There might be thousands of HTML elements on one page, how CSS know which one to style? That’s what CSS selectors do:
+        <p>HTML and CSS are like work partners. They all make their own contributions to the webpage we are browsing. We can talk about this for a whole day, but in short, HTML is all about the content on the webpage (HTML elements), while CSS is defining how HTML elements will be styled on the webpage(positions, colors, font style, etc). There might be thousands of HTML elements on one page, how CSS know which one to style? That's what CSS selectors do:
           CSS selectors select and control the elements we want to style with CSS. Among the many CSS selectors, Class and ID are two of the frequently used selectors.
           </p>
-          <p>OK, let’s talk about them respectively!</p>
+          <p>OK, let's talk about them respectively!</p>
           <h5>CSS Class </h5>
-          <p>The Class selector is used to select multiple HTML elements. To define a class selector, just simply use a period ‘.’ before adding the class name.
+          <p>The Class selector is used to select multiple HTML elements. To define a class selector, just simply use a period '.' before adding the class name.
           </p>
           <img src="../images/html-css1.jpeg" alt="defining class selectors">
           <h5>CSS ID</h5>
-          <p>The ID selector is unique. That means, ID selector can be used to define a single element on the webpage. To define an ID selector, we use a harsh ‘#’ key, followed by the ID name.
+          <p>The ID selector is unique. That means, ID selector can be used to define a single element on the webpage. To define an ID selector, we use a harsh '#' key, followed by the ID name.
           </p>
           <img src="../images/html-css2.jpeg" alt="defining an ID selector">
           <h5>ID has higher priority than class in CSS</h5>
           <p>Please note that when there are multiple rules applied to the same element, the CSS gives priority to the rule which is more specific. ID is more specific than class. In this case, ID will take precedence than Class. 
           </p>
-          <p>Let’s look at the example here:<br>
+          <p>Let's look at the example here:<br>
             We can see on the left both class and id are giving to the third p element. How these elements appear on browser is shown on the right.
             </p>
             <img src="../images/html-css3.jpeg" alt="both class and ID selectors pointed to the same element">
