@@ -74,7 +74,7 @@ header{
   .postarticle{
     margin-left: 30px;
     width: 70%;
-    text-align: justify;
+    text-align:left;
   }
 footer{
   background: #99CCCC;
@@ -109,13 +109,17 @@ h5{
   font-weight: 500;
 }
 /*posttext*/
-p {
-  font-size: 12pt;
+p{
+  font-size: 14pt;
   color:darkslategray;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
 
+/*pictures in post*/
+.blogpicture{
+  height: auto;
+  width: 400pt;
 
-
+}
 

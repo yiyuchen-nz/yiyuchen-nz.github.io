@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yiyu's Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+      <header>
+      <nav>
+        <ul class="topnav">
+          <li class="topnav-list"><a class="topnav-text" href="../index.html">HOME</a></li>
+        </ul>
+      </nav>
+      </header>
+      <section class="post">
+      <div class="postarticle">
+        <h2>JS Fundamentals</h2>
+        <h4>30 April 2022</h4>
+        <p>In this blog, I am going to talk about some fundamental concepts of JavaScript, including array, object, the DOM, the relationship of JS to HTML and CSS, and more. All the interesting stuff!</p>
+        <h5>the relationship of JavaScript to HTML and CSS</h5>
+        <p>As mentioned in my last tech blog, HTML is all about the content on a webpage, which can be texts, images, videos and so on, while CSS is about how the content will be presented, including font size, background colors, etc. JS is bringing everything to another level — the interaction between the user and the webpages. A small example will be: if we are loading a webpage with a music player on it, HTML brings us the player and the music, CSS gives a fancy look to the player, while JS give us the ability to press buttons on the player to play, pause, switch to the next songs. All in all, HTML, CSS and JavaScript work together to bring out the best user experience.
+        </p>
+          <h5>Control flow and loops</h5>
+          <p>Control flow is the order in which the computer executes codes when a program is running. In java, statements inside the code are generally running from top to bottom, in the order that they appear. But it is not always the case, sometimes we need to skip a certain set of codes based on condition or repeat a certain function when required. Control flow statements are used here, to alter, redirect or control the flow of program execution. Loop is one of the control flow statements. Loops allow us to repeat certain action again and again until the specified condition is met. Here is a metaphor：
+            <br>Let's say we are doing grocery shopping in the supermarket and about to pay at the self-checkout. What do we need to do? We need to scan the items we wanted to buy one by one (the flow). If one item is not scanned, we need to scan it again and again until it is scanned or we need to find sales assistant to help (loops until certain condition is satisfied). If you understand the process of this, you understand the control flow and loops already!
+            </p>
+          <h5>the DOM and the interactions</h5>
+          <p>First of all, what is the DOM? 
+
+            <br>To make a website, these documents are probably needed: HTML, CSS, and JavaScript. We already knew that HTML provides the structure, CSS defines the appearance and styling, JS in charge of the interaction and everything else, but how to connect these documents together? The DOM works like the glue, to tie everything together. The DOM stands for Document Object Model. 
+            <br>Let's take the DOM and HTML for example. The DOM views an HTML document as a tree of nodes. Each node represents an HTML element. Here is a piece of HTML code:
+            </p>
+            <img class="blogpicture" src="../images/JSfundamental1.jpg" alt="a piece of HTML code">
+            <p>The document is the root node and contains one child node which is the html element. The html element contains two children which are the head and body elements. The head element has three children nodes. The body contains four children nodes.
+              <br>Here is how the DOM view these HTML elements:
+              </p>
+              <img class="blogpicture" src="../images/JSfundamental2.jpeg" alt="the DOM tree"> 
+              <p>Now, we can use JavaScript to access these elements and make changes to them. 
+              </p> 
+              <p>If we need to select and access any of the HTML elements, we can use these methods:</p>
+              <ul>
+                <li><p>getElementById()</p></li>
+                <li><p>getElementsByClassName()</p></li>
+                <li><p>document.querySelector()</p></li>
+                <li><p>document.querySelectorAll()</p></li>
+                <li><p>…..and more</p></li>
+              </ul>
+              <p>After selected the elements that we need, we can modify and make changes to them. Here is an example:
+               </p>
+               <img class="blogpicture" src="../images/JSfundamental3.jpeg" alt="access HTML elements"> 
+               <p>This is the HTML document. There is an image element with an id “playericon”, and an audio element with an id “bgmusic”.
+                </p>
+                
+                <img class="blogpicture" src="../images/JSfundamental4.jpeg" alt="assign task to HTML elements"> 
+                <p>In the JS document, I used document.getElementById to select the image document and the audio document. Then I added an event “onclick” with a function which allows the user to click the icon to play or pause the background music of the website.</p>
+          <h5>Objects and Arrays</h5>
+          <p>In javascript, objects are unordered data structure which stores the data in key value pairs. Each key of the object is called the property. The curly brackets ‘{ }’ are used to define an object. The dot notation ‘.’ is used to access the properties of an object. The syntax will look  like ‘object.project’.
+            <br>Here is an example of an object variable. The object 'receipt' has three property: price, store, name. We use 'receipt. name' to access the customer’s name of the receipt.
+            </p>
+            <img class="blogpicture" src="../images/JSfundamental_object.jpeg" alt="an example of an object"> 
+          <p>Arrays store the data in an ordered collection. To define an array, square brackets ‘[ ]’ are to be used. As the data in arrays are in numerical order, it can be accessed using the index. To access the first data in an array, the syntax looks like ‘array[0]’. Need to note that, the count in array starts from zero’0’. That means the first data is 0th index, the second item is 1st index and so on. 
+            <br>This example shows an array of 'my shopping list'. Here is a question for you. If I want to access shoppinglist[1], which item is it?
+             </p>
+             <img class="blogpicture" src="../images/JSfundamental_array.jpeg" alt="an example of an array"> 
+             <p>The answer is Mangosteen! I am sure you've got it right.</p>
+            <h5>Functions</h5>
+            <p>A function in javascript is a block of code designed to perform a particular task. We can give a name to the function and execute it as many times as we want. We use keyword ‘function’ to define a function follow by the name of the function. After defining a function, we need to call the function to have it executed. 
+           </p>
+           <img src="../images/JSfundamental_function.jpeg" alt="an example of a function"> 
+           <p>Functions are important for two main reasons. Firstly, functions allow us to divide tasks within a program. Working with small chunks of code is easier than a huge script. Secondly, after a function is defined, we can reuse the code. We can call the function wherever we need and as many times as we want, hich means we don't need to rewrite the same code again and again!</p>
+
+      </div>
+      </section>
+
+    <!-- footer -->
+    <footer>
+      <a href="https://github.com/yiyuchen-nz" target="blank" id="contacts"><img src="../images/GitHub-Mark.png" alt="My Github"></a>
+     </footer>
+  </body>
+</html>
