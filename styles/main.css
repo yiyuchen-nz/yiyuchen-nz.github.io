@@ -82,6 +82,11 @@ footer{
   text-align: center;;
   display: block
 }
+.contactslogo{
+  height:30px;
+  width: auto;
+
+}
 h1{
   font-size: 30pt;
   font-family: 'Pacifico', cursive;
