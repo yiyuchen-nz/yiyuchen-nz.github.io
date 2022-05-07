@@ -50,7 +50,7 @@ header{
   .blogs{
     margin-left: 20px;
     padding-top: 20px;
-    list-style-type: none;
+    list-style-type:square;
   }
   .bloglist{
     display:list-item;
@@ -79,12 +79,15 @@ header{
 footer{
   background: #99CCCC;
   padding: 20px;
-  text-align: center;;
-  display: block
+  text-align: center;
+  display:block;
 }
 .contactslogo{
-  height:30px;
-  width: auto;
+  height:40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 15Px;
+
 
 }
 h1{
@@ -127,4 +130,5 @@ p{
   width: 400pt;
 
 }
+
 
