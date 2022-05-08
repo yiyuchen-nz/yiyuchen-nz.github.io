@@ -36,6 +36,7 @@ header{
   width: 200px;
   height: auto;
   border-radius: 50%;
+  align-items: center;
   }
 .main{
   background: #FFFFCC;
@@ -48,21 +49,27 @@ header{
 }
 
   .blogs{
-    margin-left: 20px;
-    padding-top: 20px;
-    list-style-type:square;
+    /*margin-left: 20px;*/
+    /*padding-top: 20px;*/
+    list-style-type: none;
+    align-items: center;
+    
   }
   .bloglist{
     display:list-item;
     margin-right: 10px;
     margin-bottom: 10px;
-    text-align: left;
+    text-align: center;
   }
   .bloglist-text{
     font-size: 16pt;
     color:black;
     font-family: 'Work Sans', sans-serif;
-    text-decoration:underline;
+    text-decoration: none;
+  }
+  .main a:hover{
+    color:peru;
+    text-decoration: underline;
   }
   .post{
     background: #FFFFCC;
@@ -85,8 +92,8 @@ footer{
 .contactslogo{
   height:40px;
   width: 40px;
-  border-radius: 50%;
-  margin-right: 15Px;
+  border-radius: 80%;
+  margin-right: 20Px;
 
 
 }
