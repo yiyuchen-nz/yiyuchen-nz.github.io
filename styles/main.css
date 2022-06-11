@@ -1,11 +1,30 @@
+@media screen and (max-width: 320px) {
+  header{
+    background: white;
+    padding: 12px;
+  }
+}
+
+@media screen and (min-width: 321px)and (max-width: 768px){
+  header{
+    background: lightblue;
+    padding: 12px;
+  }
+
+}
+@media screen and (min-width: 769px)and (max-width: 1200px){
+  header{
+    background: #FFCC99;
+    padding: 12px;
+  }
+
+}
+
 body {
  margin: 0;
  padding: 0;
 }
-header{
-  background: #FFCC99;
-  padding: 12px;
-}
+
 .topnav{
 
   padding: 0;
@@ -97,10 +116,10 @@ footer{
 
 
 }
-h1{
+/* h1{ 
   font-size: 30pt;
   font-family: 'Pacifico', cursive;
-}
+} */
 /*posttitle*/
 h2{
   font-size: 25pt;
@@ -125,7 +144,7 @@ h5{
 }
 /*posttext*/
 p{
-  font-size: 14pt;
+  font-size: 14pt; 
   color:darkslategray;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
